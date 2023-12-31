@@ -1,0 +1,21 @@
+** pidof
+Retrieve PID(s) of a give process name.
+
+** Usage
+Run =pidof -h= to print the help section.
+
+*** Examples
+***** 1. Single process PID(s)
+=pidof sshd=
+
+***** 2. Multiple proesses PID(s)
+=pidof sshd init dhclient=
+
+***** 3. Multiple proesses PID(s) with delimiter
+=pidof -d, sshd init dhclient=
+
+***** 4. Multiple proesses PID(s) but show the first instance PID only
+=pidof -d, -o sshd init dhclient=
+
+***** 5. Multiple proesses PID(s) but remove a PID from displaying
+=pidof -d, -r804 -o sshd init dhclient=
