@@ -1,5 +1,5 @@
 ** pidof
-Retrieve PID(s) of a give process name.
+Retrieve PID(s) of a given process name.
 
 ** Usage
 Run =pidof -h= to print the help section.
